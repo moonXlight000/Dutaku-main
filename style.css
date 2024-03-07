@@ -192,15 +192,15 @@ select {
 .first {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   height: 80vh;
   background-color: #97FAEA;
 }
 
 .first > h1 {
   font-size: 3.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 .first > .info {
