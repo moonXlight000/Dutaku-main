@@ -134,9 +134,9 @@ li {
   width: 90%;
 }
 
-li:hover {
+/* li:hover {
   background-color: #eee;
-}
+} */
 
 li > a {
   font-size: 0.8rem;
@@ -192,15 +192,15 @@ select {
 .first {
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   height: 80vh;
   background-color: #97FAEA;
 }
 
 .first > h1 {
   font-size: 3.5rem;
-  text-align: left;
+  text-align: center;
 }
 
 .first > .info {
@@ -510,6 +510,11 @@ footer > div > a:hover {
     margin-bottom: 2rem;
   }
 
+  .sixth-info-btn {
+    width: 12rem;
+    margin: 0;
+  }
+
   .links {
     flex-direction: column;
   }
@@ -618,6 +623,7 @@ footer > div > a:hover {
     display: none;
   }
 
+ 
   .first {
     height: 85vh;
   }
